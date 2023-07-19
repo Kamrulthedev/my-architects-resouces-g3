@@ -1,12 +1,46 @@
- /*Work sans font from google fonts  */
- <style>
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-</style>
- /* *{
-   font-family:'Lato',sans-serif;
-   font-family: 'Open Sans', sans-serif;
- } */
- *{
-    font-family:'Lato',sans-serif;
-    font-family: 'Open Sans', sans-serif;
-  }
+
+ /* hader style */
+ header{
+    background: rgba(255, 144, 14, 0.10);
+    padding:50px 240px;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav-title{
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+ }
+
+ nav > ul{
+    display: flex;
+ }
+ nav li{
+   list-style:none ;
+   margin-right: 30px;
+   font-weight: 500;
+    font-size: 1rem;
+ }
+ nav li a{
+    text-decoration: none;
+    color: #424242;
+ }
+ /* banner style */
+ .banner-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+ }
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-discrption{
+    color: #727272;
+}
+
+ 
