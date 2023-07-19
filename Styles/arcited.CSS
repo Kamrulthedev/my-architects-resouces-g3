@@ -97,3 +97,18 @@ main{
     padding-right: 70px;
     padding-left: 70px;
 }
+.temas-title{
+    font-size: 45px;
+}
+.temas-title .Quick-text{
+    color: #727272;
+    font-weight: 500;
+}
+.temas-title .text-features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.temas-title .text-our{
+    color: #131313;
+    font-weight: 700;
+}
