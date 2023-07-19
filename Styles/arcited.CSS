@@ -75,6 +75,25 @@
     }
 }
     
+/* header style end */
 
 
- 
+/* main style sterdt */
+main{
+    max-width: 1400px;   
+    margin: 0 auto;
+}
+/* temas style */
+  .temas-container{
+    display: flex;
+     align-items: center;
+  }
+  .temas-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+  } 
+.temas-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
